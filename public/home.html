@@ -1,0 +1,34 @@
+<div class="container">
+
+    <div class="jumbotron text-center">
+        <h1>Kanban Board <span class="label label-info">{{ data.data.length }}</span></h1>
+    </div>
+
+    <canvas class="chart chart-line" chart-data="data.data" chart-labels="data.labels"
+    chart-series="data.series" chart-click="onClick"></canvas>
+
+    <!-- <div id="todo-list" class="row justify-content-md-center">
+
+            <div class="checkbox" ng-repeat="d in data">
+                <label>
+                    <input type="checkbox"> {{ data }}
+                </label>
+            </div>
+
+    </div> -->
+
+    <!-- FORM TO CREATE TODOS -->
+    <!-- <div id="todo-form" class="row">
+        <div class="col-sm-8 col-sm-offset-2 text-center">
+            <form>
+                <div class="form-group">
+
+                    <input type="text" class="form-control input-lg text-center" placeholder="I want to buy a puppy that will love me forever" ng-model="formData.text">
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg" ng-click="createTodo()">Add</button>
+            </form>
+        </div>
+    </div> -->
+
+</div>
